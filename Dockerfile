@@ -7,7 +7,6 @@ EXPOSE 1704
 EXPOSE 1705
 EXPOSE 1780
 
-COPY snapserver.conf /etc/snapserver.conf
 COPY wsProxyControlScript.py /usr/share/snapserver/plug-ins
 RUN chmod +x /usr/share/snapserver/plug-ins
 
